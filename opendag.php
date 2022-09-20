@@ -19,14 +19,16 @@
 		</div>
 	</header>
 	<main>
-		
+	
 		<div class="container1">
 		<!-- 	<div class="vakClass">
 				<h2> Schoolvakken leerjaar 1</h2>
 			</div> -->
+
 			<div class="popup" onclick="myFunction()" >
-				<h2>Schoolvakken leerjaar1</h2>
-				<span class="popuptext" id="myPopup">Lorem ipsum dolor sit amet consectetur repellat eum.</span>
+				<h2>Schoolvakken leerjaar 1</h2>
+				<span class="popuptext" id="myPopup">Lorem ipsum dolor sit amet consectetur repellat eum. Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Enim explicabo quidem alias, maiores facere non eveniet natus quae totam maxime, laudantium corrupti ratione iure ipsum! Asperiores, maiores sequi dicta enim!
+				Ut, atque hic soluta? Doloribus, nobis. Consequatur deserunt minus nam maxime! A facilis et pariatur cum, earum, veritatis incidunt ipsa perspiciatis impedit nihil expedita quaerat sunt ut dolores, quasi, illo.</span>
 			</div>
 <!-- ==================================================== -->
 			<div class="SubPict">
@@ -200,5 +202,12 @@
 
 <script src="js/swiper-bundle.min.js"></script>
 <script src="js/script.js"></script>
+
+<script>
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
 	
 </html>
