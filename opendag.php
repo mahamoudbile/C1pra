@@ -21,8 +21,12 @@
 	<main>
 		
 		<div class="container1">
-			<div class="vakClass">
+		<!-- 	<div class="vakClass">
 				<h2> Schoolvakken leerjaar 1</h2>
+			</div> -->
+			<div class="popup" onclick="myFunction()" >
+				<h2>Schoolvakken leerjaar1</h2>
+				<span class="popuptext" id="myPopup">Lorem ipsum dolor sit amet consectetur repellat eum.</span>
 			</div>
 <!-- ==================================================== -->
 			<div class="SubPict">
