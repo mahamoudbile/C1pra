@@ -1,0 +1,313 @@
+header .container{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+header{
+	border: 7px solid lightgrey;
+}
+
+header .container{
+	display: flex;
+	align-items: center;
+	
+}
+
+.imgLogo{
+	width: 70%;
+	height: 8rem;
+	
+
+}
+
+.vakClass{
+	display: flex;
+	justify-content: center;
+	font-size: 100%;
+	font-family: monospace;
+	padding-top: 1%;
+
+}
+
+
+/*.imgVak{
+	width: 9.09%;
+	
+	display: flex;
+	float: left;
+	padding: 1%;
+
+}
+*/
+/*.subjectNames{
+	width: 94%;
+	display: flex;
+	justify-content: space-around;
+	padding-left: 3%;
+	box-sizing: border-box; 
+	border-bottom: solid 1px grey;
+
+}*/
+
+
+.docOve{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+}
+
+.ove{
+	
+	width: 30%;
+	float: left;
+	display: flex;
+	padding-top: 0.5%;
+	flex-direction: row;
+	flex-direction: column;
+	align-items: center;
+
+	
+}
+
+.ove h2{
+	font-family: monospace;
+}
+
+.ove span{
+	display: block;
+	width: 30px;
+	height: 30px;
+	border-bottom: 5px solid darkred;
+	border-right: 5px solid darkred;
+	transform: rotate(45deg);
+	margin: -11px;
+	animation: scroll 2s infinite;
+
+}
+
+.ove span:nth-child(1){
+	animation-delay: -.2S;
+}
+.ove span:nth-child(2){
+	animation-delay: -.4S;
+}
+@keyframes scroll{
+	50%{
+		opacity: 1;
+		transform: rotate(45deg) translate(0px, 0px);
+	}
+	50%{
+		opacity: 2;
+		transform: rotate(45deg) translate(-20px, -20px);
+
+	}
+}
+
+.ove .h4OV{
+	margin-top: 30px;
+	border-bottom: 1px solid grey;
+}
+
+
+.SubPict{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	align-items: center;
+	border-bottom: solid 1px grey;
+	padding-left: 0.5%;
+}
+
+.SubPict img{
+	width: 50%;
+
+}
+
+
+
+.test{
+	display: flex;
+	flex-direction: column;
+	width: 70%;	
+}
+
+.test1{
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+}
+
+.test2{
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+}
+.test3{
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+}
+.test4{
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+}
+.test5{
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+}
+.test6{
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+}
+.test7{
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+}
+.test8{
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+}
+
+
+.test9{
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+}
+/*----------------------------------------------*/
+.slide-container{
+	width: 70%;
+	background-image:url('../IMG/c1img/curioLogo.webp');
+	min-height: 70vh;
+	display: flex;
+	align-items: center;
+	margin-top: 0.6%;
+}
+
+
+
+.card{
+	border-radius: 25px;
+	background-color: #4A235A;
+	margin-left: 20%;
+
+}
+
+.slide-content{
+	margin: 0 40%;
+	display: flex;
+	width: 80%;
+}
+
+.image-content,
+.card-content{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	
+}
+
+.image-content{
+	position: relative;
+}
+.overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #B3B6B7;
+	border-radius: 25px 25px 0 25px;
+}
+
+.card-image{
+	position: relative;
+	height: 150px;
+	width: 150px;
+	display: flex;
+	border-radius: 50%;
+	background: #FFF;
+	display: flex;
+	flex-direction: column;
+
+}
+
+
+
+.card-image .card-img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 50%;
+	border: 2px solid #7458F5 ; 
+}
+
+.name{
+	font-size: 18px;
+	font-weight: bold;
+	color: #BDC3C7;
+}
+
+.description{
+	color: #BDC3C7;
+	font-size: 15px;
+	text-align: center;
+}
+
+
+
+/*-----------------------------------------------------------*/
+
+.content{
+	position: absolute;
+	top: 1%;
+	left: 3%;
+	transform: translate(-3%, -3%);
+	background: #7F8C8D ;
+	float: left;
+	width: 300px;
+
+}
+
+.content p{
+	position: absolute;
+	top: 55%;
+	left: 3%;
+	background: #7F8C8D ;
+	width: 300px;
+
+}
+
+.clickMe{
+	display: block;
+	cursor: pointer;
+	background: red;
+	width: 40%;
+	font-size: 24px;
+	transition: .5s;
+}
+
+.clickMe:hover{
+	background: yellow;
+}
+
+
+.content{
+	width: 100px;
+	display: flex;
+}
+#click{
+	display: none;
+}
+
+.Docenten{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: monospace;
+}
