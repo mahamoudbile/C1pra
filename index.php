@@ -88,9 +88,9 @@
 
 			<div class="ove">
 				<!-- <h2>Overgansnorm</h2> -->
-				<div class="popup1" onclick="myFunction1()" >
+				<div class="popup" onclick="myFunction()" >
 				<h2>Overgangsnorm</h2>
-				<span class="popuptext1" id="myPopup1">In elk leerjaar zijn er twee blokken die half jaar duren. In het 1e deel van leerjaar 1 heet blok A en 2e deel blok B.
+				<span class="popuptext" id="myPopup">In elk leerjaar zijn er twee blokken die half jaar duren. In het 1e deel van leerjaar 1 heet blok A en 2e deel blok B.
 				In het 1e leerjaar zijn er drie mogelijkheden als het gaat over de overgangsnorm.
 				<ul>
 					<li>Versnellen: Minimaal 90% leeruitkomst, Alle projecten van praktijkwerk zijn voldaan afgerond en alle feedbackmomenten van Nederlands, Engels en rekenen zijn ook voldaan afgerond. </li>
@@ -131,8 +131,9 @@
 								</div>
 							</div>
 							<div class="card-content">
-								<h2 class="name">Bart Roos1</h2>
-								<p class="description">Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Magni, similique illo harum. Sit, totam! Possimus optio doloremque consequatur alias accusantium similique nesciunt id.</p>
+								<h2 class="name">Bart Roos</h2>
+								<p class="description">Vak(ken):<ul><li>Native</li></ul><ul><li>PRO</li></ul></p>
+
 							</div>						
 						</div>
 						<!-- =================2===== -->
@@ -146,8 +147,8 @@
 								</div>
 							</div>
 							<div class="card-content">
-								<h2 class="name">Bart Roos2</h2>
-								<p class="description">Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Magni, similique illo harum. Sit, totam! Possimus optio doloremque consequatur alias accusantium similique nesciunt id.</p>
+								<h2 class="name">Elton Boekhoudt</h2>
+								<p class="description">Vak(ken):<ul><li>WEB</li></ul><ul><li>Praktijkwerk</li></ul></p>
 							</div>						
 						</div>
 
@@ -162,8 +163,8 @@
 								</div>
 							</div>
 							<div class="card-content">
-								<h2 class="name">Bart Roos3</h2>
-								<p class="description">Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Magni, similique illo harum. Sit, totam! Possimus optio doloremque consequatur alias accusantium similique nesciunt id.</p>
+								<h2 class="name">Joep van Gils</h2>
+								<p class="description">Vak(ken):<ul><li>Nederlands</li></p>
 							</div>						
 						</div>
 						<!-- ===============4======= -->
@@ -176,8 +177,8 @@
 								</div>
 							</div>
 							<div class="card-content">
-								<h2 class="name">Bart Roos4</h2>
-								<p class="description">Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Magni, similique illo harum. Sit, totam! Possimus optio doloremque consequatur alias accusantium similique nesciunt id.</p>
+								<h2 class="name">Wiro Verdiessen</h2>
+								<p class="description">Vak(ken):<ul><li>Rekenen</li></ul></p>
 							</div>						
 						</div>
 
@@ -191,8 +192,8 @@
 								</div>
 							</div>
 							<div class="card-content">
-								<h2 class="name">Bart Roos5</h2>
-								<p class="description">Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Magni, similique illo harum. Sit, totam! Possimus optio doloremque consequatur alias accusantium similique nesciunt id.</p>
+								<h2 class="name">Steven van Roosendaal</h2>
+								<p class="description">Vak(ken):<ul><li>WEB</li></ul><ul><li>PRO</li></ul></p>
 							</div>						
 						</div>
 
