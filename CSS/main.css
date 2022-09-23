@@ -1,3 +1,4 @@
+
 header .container{
     max-width: 400px;
     margin: 0 auto;
@@ -259,7 +260,7 @@ header .container{
 
 .description{
 	color: #BDC3C7;
-	font-size: 15px;
+	font-size: 17px;
 	text-align: center;
 }
 
@@ -322,6 +323,7 @@ header .container{
 .popup span, .popup h2{
 	display: flex;
 	justify-content: center;
+
 }
 
 .popup h2{
@@ -360,7 +362,7 @@ header .container{
 }
 
 
-@-webkit-keyframes fadeIn {
+/*@-webkit-keyframes fadeIn {
   from {opacity: 0;}
   to {opacity: 1;}
 }
@@ -368,4 +370,12 @@ header .container{
 @keyframes fadeIn {
   from {opacity: 0;}
   to {opacity:1 ;}
+}
+*/
+/*====================================*/
+
+
+ul li{
+	color: #BDC3C7;
+
 }
